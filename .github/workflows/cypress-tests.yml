@@ -11,3 +11,6 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
+
+      - name: Run E2E tests
+        run: yarn cypress run
